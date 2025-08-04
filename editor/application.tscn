@@ -8,10 +8,34 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="Container" type="Container" parent="."]
+[node name="timeline" type="ColorRect" parent="."]
 layout_mode = 1
-anchors_preset = 15
+anchors_preset = -1
+anchor_top = 0.551
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_top = -0.0480042
 grow_horizontal = 2
-grow_vertical = 2
+grow_vertical = 0
+color = Color(0.118803, 0.124744, 0.325018, 1)
+
+[node name="view" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.508
+anchor_right = 1.0
+anchor_bottom = 0.535
+offset_left = -0.216003
+offset_bottom = 0.319977
+grow_horizontal = 0
+color = Color(0, 0.113725, 0.239216, 1)
+
+[node name="project" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.498
+anchor_bottom = 0.534
+offset_right = 0.303955
+offset_bottom = -0.0320129
+grow_horizontal = 2
+color = Color(0.227451, 0.227451, 0.247059, 1)
